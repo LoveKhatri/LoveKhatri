@@ -2,7 +2,7 @@
 - 👀 I’m interested in Programming
 - 🌱 I’m currently learning Python and Java
 - 💞️ I’m looking to collaborate on Discord
-- 📫 How to reach me - Send Request to ツ『Love』ツ#0014 on Discord
+- 📫 How to reach me - Join [Discord](https://discord.gg/cVBJTarKfv)
 
 <!---
 LoveKhatri/LoveKhatri is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
