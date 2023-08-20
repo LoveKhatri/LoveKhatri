@@ -29,7 +29,7 @@
 
 ###
 
-<p align="left">Tech Enthusiast<br><br>- Working on [Discortics:tm:](https://discortics.com)</p>
+<p align="left">Tech Enthusiast<br><br>- Working on <a href="https://discortics.com">Discortics:tm:</a></p>
 
 ###
 
