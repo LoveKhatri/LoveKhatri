@@ -29,7 +29,7 @@
 
 ###
 
-<p align="left">Tech Enthusiast<br><br>- Working on <a href="https://discortics.com">Discortics:tm:</a></p>
+<p align="left">Tech Enthusiast<br><br>- Working on <a href="https://discortics.com">Discortics&trade</a></p>
 
 ###
 
@@ -41,8 +41,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" height="40" alt="discordjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
   <img width="12" />
