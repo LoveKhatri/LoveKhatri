@@ -149,28 +149,28 @@
 <p align="center">
     <picture>
         <source
-            srcset="https://github-readme-stats.vercel.app/api/top-langs?username=lovekhatri&show_icons=true&locale=en&layout=compact&theme=dark&bg_color=00000000"
+            srcset="https://lovekhatri-github-stats.vercel.app/api/top-langs?username=lovekhatri&show_icons=true&locale=en&layout=compact&theme=dark&bg_color=00000000"
             media="(prefers-color-scheme: dark)"
         />
         <source
-            srcset="https://github-readme-stats.vercel.app/api/top-langs?username=lovekhatri&show_icons=true&locale=en&layout=compact&bg_color=00000000"
+            srcset="https://lovekhatri-github-stats.vercel.app/api/top-langs?username=lovekhatri&show_icons=true&locale=en&layout=compact&bg_color=00000000"
             media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lovekhatri&show_icons=true&locale=en&layout=compact&bg_color=00000000" />
+        <img src="https://lovekhatri-github-stats.vercel.app/api/top-langs?username=lovekhatri&show_icons=true&locale=en&layout=compact&bg_color=00000000" />
     </picture>
 </p>
 
 <p align="center">
     <picture>
         <source
-            srcset="https://github-readme-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&show=reviews,prs_merged&hide=stars,issues&theme=dark"
+            srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&include_all_commits=true&bg_color=00000000&show=reviews,prs_merged&hide=stars,issues&theme=dark"
             media="(prefers-color-scheme: dark)"
         />
         <source
-            srcset="https://github-readme-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues"
+            srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues"
             media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
         />
-        <img src="https://github-readme-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000" />
+        <img src="(https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues" />
     </picture>
 </p>
 
