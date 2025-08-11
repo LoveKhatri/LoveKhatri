@@ -6,15 +6,6 @@
         alt="lovekhatri" />
 </p>
 
-<p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LoveKhatri/LoveKhatri/output/pacman-contribution-graph-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LoveKhatri/LoveKhatri/output/pacman-contribution-graph.svg">
-        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/LoveKhatri/LoveKhatri/output/pacman-contribution-graph.svg">
-    </picture>
-</p>
-
-
 <h4 align="center">Connect with me</h4>
 <p align="center">
         <a href="https://discord.com/users/831367868415344640" target="_blank">
@@ -33,55 +24,49 @@
 </p>
 
 <div align="center" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-    <div style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:12px; background:linear-gradient(90deg, rgba(120,120,120,.10), rgba(120,120,120,.06));">
-        <span style="font-weight:600;">Languages</span>
-        <img src="https://skillicons.dev/icons?i=javascript,typescript,go,python,java" height="28" alt="languages" />
+    <div>
+        <img src="/assets/skills/languages.svg" height="64" alt="languages" />
     </div>
-    <div style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:12px; background:linear-gradient(90deg, rgba(120,120,120,.10), rgba(120,120,120,.06));">
-        <span style="font-weight:600;">Databases</span>
-        <img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,mysql" height="28" alt="languages" />
+    <div >
+        <img src="/assets/skills/databases.svg" height="64" alt="databases" />
     </div>
-    <div style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:12px; background:linear-gradient(90deg, rgba(70,130,180,.10), rgba(70,130,180,.06));">
-        <span style="font-weight:600;">Frameworks</span>
-        <img src="https://skillicons.dev/icons?i=express,nextjs" height="28" alt="frameworks" />
+    <div >
+        <img src="/assets/skills/frameworks.svg" height="64" alt="frameworks" />
     </div>
-    <div style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:12px; background:linear-gradient(90deg, rgba(34,197,94,.10), rgba(34,197,94,.06));">
-        <span style="font-weight:600;">Infra & Ops</span>
-        <img src="https://skillicons.dev/icons?i=docker,nginx,grafana,kafka,rabbitmq" height="28" alt="infra" />
+    <div >
+        <img src="/assets/skills/infra.svg" height="64" alt="infra" />
     </div>
-    <div style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:12px; background:linear-gradient(90deg, rgba(234,179,8,.10), rgba(234,179,8,.06));">
-        <span style="font-weight:600;">Tooling</span>
-        <img src="https://skillicons.dev/icons?i=git,github,postman,vscode" height="28" alt="tooling" />
+    <div >
+        <img src="/assets/skills/tooling.svg" height="64" alt="tooling" />
     </div>
-    <div style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:12px; background:linear-gradient(90deg, rgba(168,85,247,.10), rgba(168,85,247,.06));">
-        <span style="font-weight:600;">Design</span>
-        <img src="https://skillicons.dev/icons?i=figma" height="28" alt="figma" />
+    <div >
+        <img src="/assets/skills/design.svg" height="64" alt="figma" />
     </div>
 </div>
 
 <h3 align="left">Stats</h3>
 <div align="center">
-    <table cols="4">
+    <table cols="4" border="0">
         <tr>
             <td colspan="2">
                 <picture>
-                    <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&include_all_commits=true&bg_color=00000000&show=reviews,prs_merged&hide=stars,issues&theme=dark" media="(prefers-color-scheme: dark)" />
-                    <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-                    <img alt="GitHub stats" width="420" src="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues" />
+                    <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&include_all_commits=true&bg_color=00000000&show=reviews,prs_merged&hide=stars,issues&theme=dark&hide_border=true" media="(prefers-color-scheme: dark)" />
+                    <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+                    <img alt="GitHub stats" width="420" src="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues&hide_border=true" />
                 </picture>
             </td>
             <td colspan="1">
                 <div style="display:flex; flex-direction:column; gap:8px; align-items:center;">
-                    <img alt="Most used languages (compact)" width="420" src="https://lovekhatri-github-stats.vercel.app/api/top-langs/?username=LoveKhatri&layout=compact&bg_color=00000000" />
+                    <img alt="Most used languages (compact)" width="420" src="https://lovekhatri-github-stats.vercel.app/api/top-langs/?username=LoveKhatri&layout=compact&bg_color=00000000&hide_border=true" />
                 </div>
             </td>
         </tr>
         <tr>
               <td colspan="4">
                 <picture>
-                    <source srcset="https://github-readme-streak-stats.herokuapp.com/?user=lovekhatri&theme=transparent&exclude_days=" media="(prefers-color-scheme: dark)" />
-                    <source srcset="https://github-readme-streak-stats.herokuapp.com/?user=lovekhatri&theme=transparent&exclude_days=" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-                    <img alt="Streak" width="860" src="https://github-readme-streak-stats.herokuapp.com/?user=lovekhatri&theme=transparent&exclude_days=" />
+                    <source srcset="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" media="(prefers-color-scheme: dark)" />
+                    <source srcset="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+                    <img alt="Streak" width="860" src="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" />
                 </picture>
               </td>
         </tr>
@@ -93,20 +78,17 @@
     </table>
 </div>
 
-<h3 align="left">Projects</h3>
+<h3 align="center">Projects</h3>
 <div align="center" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
-    <div style="width:420px; text-align:center;">
-        <a href="#"><img alt="Discortics banner" style="height:96px; width:auto; object-fit:contain;" src="https://discortics.com/icon.webp" /></a>
-        <div><b>Discortics™</b> - Multipurpose Discord bot for moderation, automation, and utilities.</div>
-    </div>
-    <div style="width:420px; text-align:center;">
-        <a href="#"><img alt="Automica banner" style="height:96px; width:auto; object-fit:contain;" src="assets/Automica.png" /></a>
-        <div><b>Automica</b> - Automation-focused Discord bot; owner and actively building.</div>
-    </div>
+    <img src="assets/projects/discortics.svg" alt="Discortics project card" width="420" height="110" style="margin:8px;" />
+    <img src="assets/projects/automica.svg" alt="Automica project card" width="420" height="110" style="margin:8px;" />
+    <img src="assets/projects/apolloapp.svg" alt="ApolloApp project card" width="420" height="110" style="margin:8px;" />
 </div>
 
-<h3 align="left">Freelance & collaborations</h3>
-<div align="center">
-    <a href="#"><img alt="ApolloApp banner" style="height:96px; width:auto; object-fit:contain;" src="https://apolloapp.co/images/ApolloIcon.svg" /></a>
-    <div><b>ApolloApp</b> - AI + Study application (freelance).</div>
-</div>
+<p align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LoveKhatri/LoveKhatri/output/pacman-contribution-graph-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LoveKhatri/LoveKhatri/output/pacman-contribution-graph.svg">
+        <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/LoveKhatri/LoveKhatri/output/pacman-contribution-graph.svg">
+    </picture>
+</p>
