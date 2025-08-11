@@ -44,37 +44,37 @@
     </div>
 </div>
 
-<h3 align="left">Stats</h3>
+<h3 align="center">Stats</h3>
 <div align="center">
-    <table cols="4" border="0">
-        <tr>
-            <td colspan="2">
-                <picture>
-                    <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&include_all_commits=true&bg_color=00000000&show=reviews,prs_merged&hide=stars,issues&theme=dark&hide_border=true" media="(prefers-color-scheme: dark)" />
-                    <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-                    <img alt="GitHub stats" width="420" src="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues&hide_border=true" />
-                </picture>
-            </td>
-            <td colspan="1">
-                <div style="display:flex; flex-direction:column; gap:8px; align-items:center;">
-                    <img alt="Most used languages (compact)" width="420" src="https://lovekhatri-github-stats.vercel.app/api/top-langs/?username=LoveKhatri&layout=compact&bg_color=00000000&hide_border=true" />
-                </div>
-            </td>
-        </tr>
-        <tr>
-              <td colspan="4">
-                <picture>
-                    <source srcset="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" media="(prefers-color-scheme: dark)" />
-                    <source srcset="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-                    <img alt="Streak" width="860" src="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" />
-                </picture>
-              </td>
-        </tr>
-        <tr>
-            <td colspan="4" align="center">
-                <img alt="trophies" width="860" src="https://github-profile-trophy.vercel.app/?username=lovekhatri&row=1&column=7&no-bg=true&no-frame=false&margin-w=5&margin-h=5&theme=flat&rank=-C,-?" />
-            </td>
-        </tr>
+    <table cols="5" border="0">
+      <tr>
+        <td colspan="3">
+          <picture>
+            <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&include_all_commits=true&bg_color=00000000&show=reviews,prs_merged&hide=stars,issues&theme=dark&hide_border=true" media="(prefers-color-scheme: dark)" />
+            <source srcset="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+            <img alt="GitHub stats" width="100%" src="https://lovekhatri-github-stats.vercel.app/api?username=lovekhatri&show_icons=true&locale=en&bg_color=00000000&include_all_commits=true&show=reviews,prs_merged&hide=stars,issues&hide_border=true" />
+          </picture>
+        </td>
+        <td colspan="2">
+          <div style="display:flex; flex-direction:column; gap:8px; align-items:center;">
+            <img alt="Most used languages (compact)" width="100%" src="https://lovekhatri-github-stats.vercel.app/api/top-langs/?username=LoveKhatri&layout=compact&bg_color=00000000&hide_border=true" />
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5">
+          <picture>
+            <source srcset="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" media="(prefers-color-scheme: dark)" />
+            <source srcset="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+            <img alt="Streak" width="100%" height="250" src="https://github-readme-streak-stats.herokuapp.com?user=LoveKhatri&theme=transparent&hide_border=true" />
+          </picture>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="5" align="center">
+          <img alt="trophies" width="860" src="https://github-profile-trophy.vercel.app/?username=lovekhatri&row=1&column=7&no-bg=true&no-frame=false&margin-w=5&margin-h=5&theme=flat&rank=-C,-?" />
+        </td>
+      </tr>
     </table>
 </div>
 
