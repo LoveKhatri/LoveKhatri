@@ -24,24 +24,12 @@
 </p>
 
 <div align="center" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-    <div>
-        <img src="/assets/skills/languages.svg" height="64" alt="languages" />
-    </div>
-    <div >
-        <img src="/assets/skills/databases.svg" height="64" alt="databases" />
-    </div>
-    <div >
-        <img src="/assets/skills/frameworks.svg" height="64" alt="frameworks" />
-    </div>
-    <div >
-        <img src="/assets/skills/infra.svg" height="64" alt="infra" />
-    </div>
-    <div >
-        <img src="/assets/skills/tooling.svg" height="64" alt="tooling" />
-    </div>
-    <div >
-        <img src="/assets/skills/design.svg" height="64" alt="figma" />
-    </div>
+  <img src="/assets/skills/languages.svg" height="64" alt="languages" />
+  <img src="/assets/skills/databases.svg" height="64" alt="databases" />
+  <img src="/assets/skills/frameworks.svg" height="64" alt="frameworks" />
+  <img src="/assets/skills/infra.svg" height="64" alt="infra" />
+  <img src="/assets/skills/tooling.svg" height="64" alt="tooling" />
+  <img src="/assets/skills/design.svg" height="64" alt="figma" />
 </div>
 
 <h3 align="center">Stats</h3>
