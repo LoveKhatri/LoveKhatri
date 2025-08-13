@@ -74,6 +74,10 @@
     <a href="#" target="_blank">
       <img src="assets/projects/automica.svg" alt="Automica project card" width="420" height="110" style="margin:8px;" />
     </a>
+</div>
+
+<h3 align="center">Freelance Projects</h3>
+<div align="center" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
     <a href="https://apolloapp.co" target="_blank">
       <img src="assets/projects/apolloapp.svg" alt="ApolloApp project card" width="420" height="110" style="margin:8px;" />
     </a>
