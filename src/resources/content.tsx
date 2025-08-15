@@ -42,7 +42,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.png",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -66,6 +66,7 @@ const home: Home = {
 const about: About = {
   path: "/about",
   label: "About",
+  image: "/images/og/about.png",
   title: `About – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from India`,
   tableOfContent: {
@@ -165,23 +166,8 @@ const about: About = {
 const work: Work = {
   path: "/projects",
   label: "Projects",
+  image: "/images/og/projects.png",
   title: `Projects – ${person.name}`,
   description: `A collection of personal, freelance, and open-source projects by ${person.name}`,
 };
-
-const gallery: Gallery = {
-  path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
-  images: [],
-};
-
-const blog: Blog = {
-  path: "/blog",
-  label: "Blog",
-  title: "Thoughts, experiments, and development notes",
-  description: `Read what ${person.name} has been working on lately.`,
-};
-
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, work };
