@@ -20,7 +20,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       images: [
         {
-          url: "https://www.lovekhatri.dev/images/og/home.jpg",
+          url: "https://www.lovekhatri.dev/images/og/home.png",
           alt: "Love's Portfolio"
         }
       ]
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "Love's Portfolio",
       description: "Portfolio website showcasing my work as a Backend Developer",
-      images: ["https://www.lovekhatri.dev/images/og/home.jpg"]
+      images: ["https://www.lovekhatri.dev/images/og/home.png"]
     }
   };
 }
@@ -189,9 +189,9 @@ export default async function RootLayout({
             flex={1}
           >
             <Flex horizontal="center" fillWidth minHeight="0">
-              <RouteGuard>
-                {children}
-              </RouteGuard>
+              {/* <RouteGuard> */}
+              {children}
+              {/* </RouteGuard> */}
             </Flex>
           </Flex>
           <Footer />

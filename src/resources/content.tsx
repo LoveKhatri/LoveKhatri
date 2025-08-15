@@ -1,23 +1,4 @@
 import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
-import {
-  SiTypescript,
-  SiFigma,
-  SiDocker,
-  SiJavascript,
-  SiGo,
-  SiPython,
-  SiMongodb,
-  SiPostgresql,
-  SiRedis,
-  SiNginx,
-  SiApachekafka,
-  SiExpress,
-  SiNextdotjs,
-  SiGit,
-  SiGithub,
-  SiPostman,
-  SiVsco,
-} from "react-icons/si";
 
 const person: Person = {
   firstName: "Love",
