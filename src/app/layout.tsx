@@ -7,16 +7,44 @@ import classNames from "classnames";
 import { Background, Column, Flex, Meta, opacity, Particle, SpacingToken } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from '@/components';
 import { baseURL, effects, fonts, style, dataStyle, home } from '@/resources';
+import { Metadata } from "next"
 
-export async function generateMetadata() {
-  return Meta.generate({
-    title: home.title,
-    description: home.description,
-    baseURL: baseURL,
-    path: home.path,
-    image: home.image,
-  });
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Love's Portfolio",
+    description: "Portfolio website showcasing my work as a Backend Developer",
+    openGraph: {
+      title: "Love's Portfolio",
+      description: "Portfolio website showcasing my work as a Backend Developer",
+      url: "https://www.lovekhatri.dev/",
+      type: "website",
+      images: [
+        {
+          url: "https://www.lovekhatri.dev/images/og/home.jpg",
+          alt: "Love's Portfolio"
+        }
+      ]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Love's Portfolio",
+      description: "Portfolio website showcasing my work as a Backend Developer",
+      images: ["https://www.lovekhatri.dev/images/og/home.jpg"]
+    }
+  };
 }
+
+// export async function generateMetadata() {
+//   const data = Meta.generate({
+//     title: home.title,
+//     description: home.description,
+//     baseURL: baseURL,
+//     path: home.path,
+//     image: home.image,
+//   });
+
+//   return data;
+// }
 
 export default async function RootLayout({
   children,
