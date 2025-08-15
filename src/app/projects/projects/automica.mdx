@@ -1,0 +1,42 @@
+---
+title: "Automica: Modular Discord Automation with Infinite Possibilities"
+publishedAt: "2025-08-15"
+summary: "Automica is a multi-module Discord bot built for extreme customization, automation, and backend precision—designed to scale with user needs and developer control."
+images:
+  - "/images/projects/automica/cover.png"
+team:
+  - name: "Love Khatri"
+    role: "Backend Engineer & Architect"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/lovekhatri/"
+---
+
+## Overview
+
+Automica is a modular Discord bot engineered to offer infinite customization through a powerful automation engine. Started in June 2025, the project focuses on giving users granular control over their server workflows—whether it's automating responses, tracking engagement, or running community events. At its core is a flexible automation module built around **triggers**, **conditions**, and **actions**, allowing users to chain logic in any direction and scale it to fit their needs.
+
+While Automica is publicly available and free to use, it hasn’t been marketed or launched officially. It currently runs in a limited number of test environments as development continues.
+
+## Key Features
+
+- **Trigger-Based Automation Engine**: Users can define custom workflows by combining triggers (e.g., message sent, user joined) with conditions and actions. The architecture supports chaining multiple actions and is built to scale with future modules.
+- **Stats-Driven Architecture**: A core stats module tracks granular metrics like messages per user/channel, voice time, and join/leave events—without interfering with other bot operations.
+- **Leveling System with Spam Protection**: Built atop the stats module, the leveling system awards XP based on message activity, with a custom anti-spam algorithm that prevents abuse while supporting voice and message leveling.
+- **Robust Giveaway System**: Designed to be fail-proof, giveaways resume reliably even after downtime. Extensive customization options allow for requirement checks and Discord-native integrations.
+- **Modular Expansion**: New modules like welcome messages, global economy, forms, and notifications are in development, with architecture that supports plug-and-play extensibility.
+
+## Technologies Used
+
+- **Node.js & TypeScript**: For scalable backend logic and type-safe development.
+- **Discord.js**: To interface with Discord’s API and manage bot interactions.
+- **Redis**: For fast, persistent state management across modules.
+- **PostgreSQL**: As the primary data store for structured metrics and user data.
+- **Docker & Compose**: For containerized deployment and multi-service orchestration.
+
+## Challenges and Learnings
+
+Designing Automica required balancing performance with modularity. The stats module, for example, had to be deeply integrated yet non-intrusive—ensuring it could power other features without becoming a bottleneck. Building a leveling system with spam protection from scratch taught me the value of custom algorithms over off-the-shelf solutions. I also learned how to architect fail-safe systems, like the giveaway module, that recover gracefully from downtime.
+
+## Outcome
+
+Automica has evolved into a scalable, multi-tenant bot framework that empowers users to automate and customize their Discord experience with precision. Its modular design and backend-first approach make it ideal for communities that demand reliability, flexibility, and control. While the bot is not yet actively promoted, its architecture is built to support future growth and user-driven expansion.
