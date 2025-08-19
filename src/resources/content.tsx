@@ -1,4 +1,13 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import {
+  About,
+  Blog,
+  Gallery,
+  Home,
+  Newsletter,
+  Person,
+  Social,
+  Work,
+} from "@/types";
 
 const person: Person = {
   firstName: "Love",
@@ -58,7 +67,8 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Love, a backend developer passionate about creating scalable, reliable, and efficient systems.
+      I'm Love, a backend developer passionate about creating scalable,
+      reliable, and efficient systems.
     </>
   ),
 };
@@ -85,11 +95,11 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Hi, I’m Love — a backend developer who enjoys building the systems that
-        run behind the scenes. I work with technologies like TypeScript, PostgreSQL,
-        Redis, and Docker to create reliable, scalable backend solutions.
-        I’ve contributed to projects serving millions of users and also built my own
-        products from scratch.
+        Hi, I&apos;m Love — a backend developer who enjoys building the systems that
+        run behind the scenes. I work with technologies like TypeScript,
+        PostgreSQL, Redis, and Docker to create reliable, scalable backend
+        solutions. I&apos;ve contributed to projects serving millions of users and
+        also built my own products from scratch.
       </>
     ),
   },
@@ -102,7 +112,11 @@ const about: About = {
         timeframe: "Aug 2024 - May 2025",
         role: "Backend Developer",
         achievements: [
-          <>Developed backend for an AI-powered educational platform with features like test plan generation, quiz/flashcard creation, and assignment grading.</>,
+          <>
+            Developed backend for an AI-powered educational platform with
+            features like test plan generation, quiz/flashcard creation, and
+            assignment grading.
+          </>,
         ],
         images: [],
       },
@@ -111,8 +125,13 @@ const about: About = {
         timeframe: "May 2023 – July 2023",
         role: "Backend Intern",
         achievements: [
-          <>Revamped two major modules (Giveaways and Tickets) for the Discortics Discord bot.</>,
-          <>Worked on TypeScript migration and backend performance improvements.</>,
+          <>
+            Revamped two major modules (Giveaways and Tickets) for the
+            Discortics Discord bot.
+          </>,
+          <>
+            Worked on TypeScript migration and backend performance improvements.
+          </>,
         ],
         images: [],
       },
@@ -138,29 +157,98 @@ const about: About = {
     skills: [
       {
         title: "Backend & Languages",
-        description: (
-          <>JavaScript, TypeScript, Next.js, Node.js, Go, Python</>
-        ),
+        tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "TypeScript",
+            icon: "typescript",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "Go",
+            icon: "go",
+          },
+          {
+            name: "Python",
+            icon: "python",
+          },
+        ],
       },
       {
         title: "Databases & ORM",
-        description: (
-          <>SQL (PostgreSQL, MySQL), MongoDB, Redis, ORMs (Prisma, Drizzle)</>
-        ),
+        tags: [
+          {
+            name: "PostgreSQL",
+            icon: "postgresql",
+          },
+          {
+            name: "MySQL",
+            icon: "mysql",
+          },
+          {
+            name: "MongoDB",
+            icon: "mongodb",
+          },
+          {
+            name: "Redis",
+            icon: "redis",
+          },
+          {
+            name: "Prisma",
+            icon: "prisma",
+          },
+          {
+            name: "Drizzle",
+            icon: "drizzle",
+          },
+        ],
       },
       {
         title: "Tools & Infrastructure",
-        description: (
-          <>Docker, Git/GitHub, Nginx, Kafka, RabbitMQ</>
-        ),
+        tags: [
+          {
+            name: "Docker",
+            icon: "docker",
+          },
+          {
+            name: "Git",
+            icon: "git",
+          },
+          {
+            name: "Nginx",
+            icon: "nginx",
+          },
+          {
+            name: "Kafka",
+            icon: "apachekafka",
+          },
+          {
+            name: "RabbitMQ",
+            icon: "rabbitmq",
+          },
+        ],
       },
       {
         title: "Design & Prototyping",
-        description: <>Figma (UI prototyping)</>,
+        tags: [
+          {
+            name: "Figma",
+            icon: "figma",
+          },
+        ],
       },
     ],
-  }
-
+  },
 };
 
 const work: Work = {
