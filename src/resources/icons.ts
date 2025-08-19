@@ -30,6 +30,27 @@ import {
   FaThreads,
 } from "react-icons/fa6";
 
+import {
+  SiJavascript,
+  SiTypescript,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiGo,
+  SiPython,
+  SiPostgresql,
+  SiMysql,
+  SiMongodb,
+  SiRedis,
+  SiPrisma,
+  SiDrizzle,
+  SiDocker,
+  SiGit,
+  SiNginx,
+  SiApachekafka,
+  SiRabbitmq,
+  SiFigma,
+} from "react-icons/si";
+
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
   arrowRight: HiArrowRight,
@@ -52,6 +73,24 @@ export const iconLibrary: Record<string, IconType> = {
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
   document: HiOutlineDocument,
   rocket: HiOutlineRocketLaunch,
+  javascript: SiJavascript,
+  typescript: SiTypescript,
+  nextjs: SiNextdotjs,
+  nodejs: SiNodedotjs,
+  go: SiGo,
+  python: SiPython,
+  postgresql: SiPostgresql,
+  mysql: SiMysql,
+  mongodb: SiMongodb,
+  redis: SiRedis,
+  prisma: SiPrisma,
+  drizzle: SiDrizzle,
+  docker: SiDocker,
+  git: SiGit,
+  nginx: SiNginx,
+  apachekafka: SiApachekafka,
+  rabbitmq: SiRabbitmq,
+  figma: SiFigma,
 };
 
 export type IconLibrary = typeof iconLibrary;

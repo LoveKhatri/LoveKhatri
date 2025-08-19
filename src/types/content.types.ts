@@ -1,4 +1,5 @@
 import { IconName } from "@/resources/icons";
+import React from "react";
 import { IconType } from "react-icons";
 import { zones } from "tzdata";
 
@@ -189,7 +190,12 @@ export interface About extends BasePageConfig {
       /** Skill title */
       title: string;
       /** Skill description */
-      description: React.ReactNode;
+      description?: React.ReactNode;
+      /** Skill tags */
+      tags?: Array<{
+        name: string;
+        icon?: string;
+      }>;
       /** Images related to the skill */
       images?: Array<{
         /** Image source path */
