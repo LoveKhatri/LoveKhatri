@@ -71,7 +71,7 @@
     <a href="https://discortics.com" target="_blank">
       <img src="assets/projects/discortics.svg" alt="Discortics project card" width="420" height="110" style="margin:8px;" />
     </a>
-    <a href="#" target="_blank">
+    <a href="https://automica.app" target="_blank">
       <img src="assets/projects/automica.svg" alt="Automica project card" width="420" height="110" style="margin:8px;" />
     </a>
 </div>
