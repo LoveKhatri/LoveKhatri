@@ -108,6 +108,19 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Cognivo Pvt. Ltd. (ZoodleMe)",
+        timeframe: "Sep 2025 - Dec 2025",
+        role: "Backend Developer Intern",
+        achievements: [
+          <>
+            Architected a serverless CI/CD pipeline using AWS SAM and GitHub Actions, migrating manual deployments
+            to an automated workflow. Optimized DynamoDB schema and Python backend for 11 APIs, improving data
+            access patterns for the ZoodleMe platform.
+          </>
+        ],
+        images: [],
+      },
+      {
         company: "ApolloApp (Freelance Project)",
         timeframe: "Aug 2024 - May 2025",
         role: "Backend Developer",
